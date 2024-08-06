@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, UFABC !'
+    return 'Hello, UFABC agora com sonarQube!'
 
 #teste
 if __name__ == '__main__':
