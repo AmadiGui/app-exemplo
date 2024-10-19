@@ -6,7 +6,7 @@ csrf = CSRFProtect(app)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, UFABC TCC agora com SonarQube! '
+    return 'Hello, UFABC agora com SonarQube! \o/'
 
 # @app.route('/duplicate')
 # def hello_world_duplicate():  # Função duplicada
